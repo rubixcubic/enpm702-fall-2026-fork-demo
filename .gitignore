@@ -1,0 +1,18 @@
+# This repository holds Markdown and YAML, nothing that compiles, so there
+# is no build output to ignore. What is left is the clutter your operating
+# system and editor leave behind.
+#
+# Compare this with the .gitignore you will write for your C++ and ROS 2
+# assignments. A .gitignore should match the project it sits in, not be
+# pasted from a template.
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Linux
+*~

@@ -1,0 +1,23 @@
+# Shared configuration file, used ONLY during the live demo.
+#
+# Do not put your contributor entry here. This file exists so that two
+# people can edit the same line on purpose and produce a merge conflict
+# that everybody can watch being resolved.
+#
+# The contested line is navigation.update_rate, below.
+
+robot:
+  name: "delivery-bot"
+  wheel_radius: 0.08      # meters
+  max_speed: 1.5          # m/s
+
+navigation:
+  # The demo edits this line, from two sides, on purpose.
+  update_rate: 5          # Hz
+  coordinate_system: "WGS84"
+  obstacle_margin: 0.35   # meters
+
+sensors:
+  lidar: true
+  imu: true
+  gps: false
